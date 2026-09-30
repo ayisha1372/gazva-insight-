@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "name": "Tadabbur",
+      "banner_title": "Reflecting on the Qur'an",
+      "banner_description": "Thoughtful reflections that explore the meanings, wisdom, and timeless guidance of the Qur'an—written to encourage deeper understanding and meaningful contemplation.",
+      "meta_description": "Reflections, structure, and study notes on the Quran — written for readers who want to engage with the text closely.",
+      "slug": "tadabbur",
+      "sort_order": 1,
+      "show_in_nav": true
+    },
+    {
+      "name": "Ahkaam",
+      "banner_title": "Understanding Islamic Jurisprudence",
+      "banner_description": "Explore articles that explain the principles of Islamic law with clarity, authenticity, and relevance, helping readers connect Fiqh with everyday life.",
+      "meta_description": "Explore authentic articles on Islamic jurisprudence (Fiqh), explaining its principles, rulings, and relevance to everyday life.",
+      "slug": "ahkaam",
+      "sort_order": 2,
+      "show_in_nav": true
+    },
+    {
+      "name": "Siyar",
+      "banner_title": "The Lives That Shaped History",
+      "banner_description": "Explore the lives, legacy, and historical experiences of remarkable individuals and events that have shaped the Muslim world through authentic and engaging narratives.",
+      "meta_description": "Explore the lives, legacy, and historical experiences that shaped the Muslim world through authentic, engaging, and well-researched articles.",
+      "slug": "siyar",
+      "sort_order": 3,
+      "show_in_nav": true
+    },
+    {
+      "name": "Reflection",
+      "banner_title": "Thoughts That Inspire Reflection",
+      "banner_description": "A collection of thoughtful essays, personal insights, and meaningful discussions that encourage critical thinking, self-reflection, and deeper engagement with ideas.",
+      "meta_description": "Explore thoughtful essays, personal reflections, and meaningful discussions that inspire critical thinking, self-reflection, and intellectual growth.",
+      "slug": "reflection",
+      "sort_order": 4,
+      "show_in_nav": true
+    },
+    {
+      "name": "Global Affairs",
+      "banner_title": "Faith in a Changing World",
+      "banner_description": "Explore thoughtful analyses of contemporary social, political, and humanitarian issues, informed by Islamic values and a commitment to balanced understanding.",
+      "meta_description": "Reflections on faith, character, and everyday life — for readers who want practical, grounded writing.",
+      "slug": "globalaffairs",
+      "sort_order": 5,
+      "show_in_nav": true
+    },
+    {
+      "name": "Bookshelf",
+      "banner_title": "Cultivating a Culture of Reading",
+      "banner_description": "Explore thoughtful reviews and discussions of classical and contemporary works that encourage deeper reading, lifelong learning, and intellectual growth.",
+      "meta_description": "Explore thoughtful reviews and discussions of classical and contemporary books that inspire learning, reflection, and intellectual growth.",
+      "slug": "bookshelf",
+      "sort_order": 6,
+      "show_in_nav": true
+    },
+    {
+      "name": "Meet the Scholar",
+      "banner_title": "Meet the Minds Behind the Knowledge",
+      "banner_description": "Get to know scholars, researchers, and intellectuals whose experiences, research, and insights inspire learning, thoughtful reflection, and meaningful dialogue.",
+      "meta_description": "Meet scholars, researchers, and intellectuals whose knowledge, experiences, and insights inspire learning, thoughtful reflection, and meaningful dialogue.",
+      "slug": "meetthescholar",
+      "sort_order": 7,
+      "show_in_nav": true
+    },
+    {
+      "name": "Kurippathukal",
+      "banner_title": "Where Creativity Finds Its Voice",
+      "banner_description": "Explore short stories, poetry, and literary pieces that inspire reflection, celebrate language, and bring diverse voices to life.",
+      "meta_description": "Discover stories, poetry, and creative writing in English and Malayalam that celebrate imagination, reflection, and the power of words.",
+      "slug": "kurippathukal",
+      "sort_order": 8,
+      "show_in_nav": true
+    }
+  ],
+  "articles": [
+    {
+      "slug": "samastha",
+      "category": "siyar",
+      "title": "ഇസ്ലാമിക പഠനത്തിന്റെ നവയുഗം: സമസ്തയുടെ സമന്വയ ദൗത്യം",
+      "excerpt": "1945 മുതൽ സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമ (സമസ്ത) വിദ്യാഭ്യാസ ശാക്തീകരണത്തിന് വലിയ പ്രാധാന്യം നൽകി വരുന്നു. പ്രസിദ്ധീകരണങ്ങളുടെ പുനരുജ്ജീവനം, മദ്രസ പ്രസ്ഥാനത്തിന് തുടക്കം കുറിക്കൽ, ഇസ്ലാമിക വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളുടെ സ്ഥാപനം, തങ്ങളുടെ ലക്ഷ്യങ്ങൾ മുന്നോട്ട് കൊണ്ടുപോകുന്നതിനായി വിവിധ ഉപസമിതികൾക്ക് രൂപം നൽകൽ എന്നിവയെല്ലാം ഈ ദൗത്യത്തിന്റെ ഭാഗമായിരുന്നു. 1951-ൽ വ്യവസ്ഥാപിതവും ശാസ്ത്രീയവുമായ ഒരു മതവിദ്യാഭ്യാസ സമ്പ്രദായം അവതരിപ്പിച്ചുകൊണ്ട് സമസ്ത കേരളത്തിലെ മുസ്ലീം സമൂഹത്തിന്റെ ജീവിതത്തിൽ വലിയൊരു പരിവർത്തനത്തിന് വഴിയൊരുക്കി.",
+      "body": "<p> 1945 മുതൽ സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമ (സമസ്ത)  വിദ്യാഭ്യാസ ശാക്തീകരണത്തിന് വലിയ പ്രാധാന്യം നൽകി വരുന്നു. പ്രസിദ്ധീകരണങ്ങളുടെ പുനരുജ്ജീവനം, മദ്രസ പ്രസ്ഥാനത്തിന് തുടക്കം കുറിക്കൽ, ഇസ്ലാമിക വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളുടെ സ്ഥാപനം, തങ്ങളുടെ ലക്ഷ്യങ്ങൾ മുന്നോട്ട് കൊണ്ടുപോകുന്നതിനായി വിവിധ ഉപസമിതികൾക്ക് രൂപം നൽകൽ എന്നിവയെല്ലാം ഈ ദൗത്യത്തിന്റെ ഭാഗമായിരുന്നു.\n\n1951-ൽ വ്യവസ്ഥാപിതവും ശാസ്ത്രീയവുമായ ഒരു മതവിദ്യാഭ്യാസ സമ്പ്രദായം അവതരിപ്പിച്ചുകൊണ്ട് സമസ്ത കേരളത്തിലെ മുസ്ലീം സമൂഹത്തിന്റെ ജീവിതത്തിൽ വലിയൊരു പരിവർത്തനത്തിന് വഴിയൊരുക്കി. ഇസ്ലാമിക തത്വങ്ങളിൽ അടിയുറച്ചുനിന്നുകൊണ്ട് തന്നെ, ഇസ്ലാമിക വിജ്ഞാന മേഖലകളിൽ മികവ് പ്രോത്സാഹിപ്പിക്കാൻ ഈ നൂതന സമീപനം ശ്രമിച്ചു. കാലഘട്ടത്തിന്റെ വികസിച്ചുകൊണ്ടിരിക്കുന്ന ആവശ്യകതകൾക്കനുസരിച്ച് ഈ സംവിധാനം നിരന്തരമായ മാറ്റങ്ങൾക്കും പരിഷ്കരണങ്ങൾക്കും വിധേയമായി.\n\nനിലവിൽ, മദ്രസകൾ എന്നറിയപ്പെടുന്ന പതിനൊന്നായിരത്തി എൺപതിലധികം (11,080+) പ്രാഥമിക വിദ്യാഭ്യാസ സ്ഥാപനങ്ങളുടെ വിശാലമായ ശൃംഖലയാണ് സമസ്തയുടെ കീഴിൽ പ്രവർത്തിക്കുന്നത്. ഈ സ്ഥാപനങ്ങളിൽ 12 ലക്ഷത്തിലധികം വിദ്യാർത്ഥികൾ വിദ്യാഭ്യാസം നേടുന്നു. S.K.I.M.V.B (സമസ്ത കേരള ഇസ്ലാം മത വിദ്യാഭ്യാസ ബോർഡ്) ഓഫീസിലെ മുഅല്ലിം സർവീസ് രജിസ്റ്ററിൽ ഔദ്യോഗികമായി ലിസ്റ്റ് ചെയ്ത ഒരു ലക്ഷത്തിലധികം അധ്യാപകരുടെ അർപ്പണബോധമുള്ള ഫാക്കൽറ്റിയാണ് ഈ മദ്രസകളെ മുന്നോട്ട് നയിക്കുന്നത്. ഇസ്ലാമിക വിദ്യാഭ്യാസ മേഖലയിലെ സമസ്തയുടെ സേവനങ്ങളുടെ ഒരു സുവർണ്ണ തൂവലാണ് ഈ ശക്തമായ പ്രസ്ഥാനം. പ്രാഥമിക പഠനത്തിന് ബലവത്തായ അടിത്തറ പാകിക്കൊണ്ട്, മുസ്ലിം വിദ്യാർത്ഥികൾക്ക് നിർണായകമായ ഒരു വിദ്യാഭ്യാസ പാത സ്ഥാപിക്കാൻ മദ്രസകളിലൂടെ സമസ്തക്ക് കഴിഞ്ഞു. ഈ വിദ്യാഭ്യാസ ചട്ടക്കൂട് പന്ത്രണ്ടാം ക്ലാസ് വരെ നീളുന്നു. സാധാരണ സ്കൂൾ സമയം (രാവിലെ 10 മണിക്ക്) ആരംഭിക്കുന്നതിനു മുമ്പുള്ള സമയത്ത്, അതായത് രാവിലെ 6 മണിക്കും 9 മണിക്കും ഇടയിലാണ് മദ്രസാ ക്ലാസുകൾ നടക്കുന്നത്.</p>\n         <h2>ദേശീയവും അന്തർദേശീയവുമായ വ്യാപനം</h2>\n         <p>സമസ്തയുടെ ഈ വിദ്യാഭ്യാസ മാതൃകയുടെ ഫലപ്രാപ്തിക്ക് തെളിവായി, തമിഴ്നാട്, കർണാടക, ലക്ഷദ്വീപ്, മഹാരാഷ്ട്ര, പുതുച്ചേരി, ആൻഡമാൻ നിക്കോബാർ ദ്വീപുകൾ എന്നിവിടങ്ങളിലെ തിരഞ്ഞെടുക്കപ്പെട്ട പ്രദേശങ്ങളിലെ ആളുകൾ സമസ്തയുടെ മദ്രസ പാഠ്യപദ്ധതി സ്വീകരിക്കുകയും അവിടെയും മദ്രസകൾ സ്ഥാപിക്കുകയും ചെയ്തു. മാത്രമല്ല, മലേഷ്യ, യു.എ.ഇ., ബഹ്‌റൈൻ, കുവൈറ്റ്, സൗദി അറേബ്യ, ഖത്തർ, ഒമാൻ തുടങ്ങിയ ഗൾഫ് രാജ്യങ്ങളിൽ താമസിക്കുന്ന മലയാളം സംസാരിക്കുന്ന സമൂഹങ്ങളും ഇതേ പാഠ്യപദ്ധതി പിന്തുടരുകയും സമസ്തയുടെ പൊതു പരീക്ഷകളിൽ പങ്കെടുക്കുകയും ചെയ്യുന്നു.</p>\n         <h2>ദർസുകളും ഇസ്ലാമിക സ്ഥാപനങ്ങളും</h2>\n         <p>കേരളത്തിലെ ദർസ് സമ്പ്രദായം നൂറ്റാണ്ടുകളായി ഈ പ്രദേശത്ത് നിലനിൽക്കുന്ന പരമ്പരാഗത ഇസ്ലാമിക വിദ്യാഭ്യാസ രീതിയാണ്. ഈ ദർസ് സ്ഥാപനങ്ങൾ പലപ്പോഴും പള്ളികളുമായി ബന്ധപ്പെട്ടിരിക്കുകയും മതപഠനത്തിനും ഇസ്ലാമിക പഠിപ്പിക്കലുകൾ പ്രചരിപ്പിക്കുന്നതിനും കേന്ദ്രങ്ങളായി പ്രവർത്തിക്കുകയും ചെയ്യുന്നു. ഈ സമ്പ്രദായത്തിൽ, വിദ്യാർത്ഥികൾ ഒരു മുദരിസ്സിന്റെ (അധ്യാപകൻ) കീഴിൽ ഇസ്ലാമിക വിജ്ഞാനത്തിനായി സ്വയം സമർപ്പിക്കുന്നു. ഇസ്ലാമിക വിജ്ഞാനത്തിൽ വിദഗ്ധരാകാൻ അവർ സാധാരണയായി 6 മുതൽ 10 വർഷം വരെ ഗുരുനാഥനോടൊപ്പം താമസിച്ചു പഠിക്കുന്നു.</p>\n         <p>മദ്രസ സമ്പ്രദായം വിജയകരമായി നടപ്പിലാക്കുകയും വ്യാപകമായി സ്വീകരിക്കപ്പെടുകയും ചെയ്തതിനുശേഷം, ഇസ്ലാമിക കോളേജുകൾ സ്ഥാപിച്ചുകൊണ്ട് മതവിദ്യാഭ്യാസത്തെ കൂടുതൽ ഉന്നത തലത്തിലേക്ക് കൊണ്ടുപോകാൻ സമസ്ത തീരുമാനിച്ചു. ഈ മുൻനിര സ്ഥാപനങ്ങളിൽ മലപ്പുറം പട്ടിക്കാട് സ്ഥിതി ചെയ്യുന്ന ജാമിഅ നൂരിയ്യ അറബിയ്യ ഉൾപ്പെടുന്നു. തമിഴ്നാട്ടിലെ വെല്ലൂരിലെ അൽ-ബഖിയാത്തു സ്വാലിഹാത്ത്, അല്ലെങ്കിൽ അക്കാലത്ത് ഇസ്ലാമിക വിദ്യാഭ്യാസത്തിന് ഏറെ ബഹുമാനിക്കപ്പെട്ടിരുന്ന ദയൂബന്ദിലെ ദാറുൽ ഉലൂം പോലുള്ള ഉന്നത സ്ഥാപനങ്ങളിൽ പ്രവേശനം നേടുന്നതിൽ വിദ്യാർത്ഥികൾ നേരിട്ടിരുന്ന പ്രയാസങ്ങൾ ഈ പുതിയ കോളേജ് സ്ഥാപിക്കുന്നതിന് പ്രചോദനമായി. പരിമിതമായ സീറ്റുകൾ, ഭാഷാപരമായ തടസ്സങ്ങൾ, സാമ്പത്തിക പരിമിതികൾ, ഭൂമിശാസ്ത്രപരമായ ദൂരം എന്നിവയെല്ലാം ഈ വെല്ലുവിളികളിൽ ഉൾപ്പെടുന്നു.</p>\n         <p>1963 ഓഗസ്റ്റ് 8-നാണ് ജാമിഅ നൂരിയ്യ അറബിയ്യ സ്ഥാപിതമായത്. തുടക്കത്തിൽ മലപ്പുറം പട്ടിക്കാട്ടെ റഹ്മാനിയ മസ്ജിദിന്റെ പരിസരത്താണ് ഇത് പ്രവർത്തിച്ചിരുന്നത്. ഒരു വർഷത്തിനുശേഷം, 1964 നവംബർ 12-ന് കോളേജ് സ്വന്തമായുള്ള കെട്ടിടത്തിലേക്ക് മാറി. ഒരു വിപുലമായ പഠന കേന്ദ്രമായി പ്രവർത്തിക്കുന്ന ഈ കോളേജ്, ദർസ് സമ്പ്രദായത്തിൽ നിന്ന് ബിരുദം നേടിയവർ ഉൾപ്പെടെ, മറ്റ് സ്ഥാപനങ്ങളിൽ പ്രാഥമിക പഠനം പൂർത്തിയാക്കിയ വിദ്യാർത്ഥികൾക്ക് മാത്രമായി പ്രവേശനം നൽകി. സമസ്തയുടെ വിദ്യാഭ്യാസ തത്വങ്ങളുമായി ചേർന്ന് പ്രവർത്തിക്കുന്ന ജാമിഅ നൂരിയ്യ, പ്രധാനമായും ഷാഫി ഫിഖ്ഹിന് (കർമ്മശാസ്ത്രം) മുൻഗണന നൽകുന്നു. ക്ലാസിക്കൽ ഇസ്ലാമിക ഗ്രന്ഥങ്ങൾ ഉപയോഗിച്ച് അറബി ഭാഷ, തഫ്‌സീർ (ഖുർആൻ വ്യാഖ്യാനം), ഹദീസ് (പ്രവാചക പാരമ്പര്യങ്ങൾ), തസവ്വുഫ് (ഇസ്ലാമിക ആത്മീയത) എന്നിവയിൽ വിപുലമായ കോഴ്സുകൾ ഇവിടെ നൽകുന്നു.</p>\n         <p>ജാമിഅ നൂരിയ്യ സ്ഥാപിച്ച മാതൃകയിൽ നിന്ന് പ്രചോദനം ഉൾക്കൊണ്ട്, ഇസ്ലാമിക ശാസ്ത്രത്തിൽ വിപുലമായ പഠനം പ്രോത്സാഹിപ്പിച്ചുകൊണ്ട് കേരളത്തിലെ വിവിധ പ്രദേശങ്ങളിൽ നിരവധി ഇസ്ലാമിക കോളേജുകൾ ഉയർന്നുവന്നിട്ടുണ്ട്. കടമേരിയിലെ റഹ്മാനിയ അറബിക് കോളേജ്, നന്തിയിലെ ജാമിഅ ദാറു സ്സലാം എന്നിവ ഈ സ്ഥാപനങ്ങളിൽ ശ്രദ്ധേയമാണ്. സമീപ വർഷങ്ങളിൽ, വിദ്യാർത്ഥികൾ ദർസിൽ കുറഞ്ഞ സമയം ചെലവഴിക്കുകയും തുടർന്ന് ഇസ്ലാമിക കോളേജുകളിൽ ഉന്നത വിദ്യാഭ്യാസം തുടരുകയും ചെയ്യുന്ന ഒരു പ്രവണതയുണ്ട്. പഠനം പൂർത്തിയാക്കുമ്പോൾ, ഈ കോളേജുകളിലെ ബിരുദധാരികൾക്ക് ഫൈസി, ഹുദവി, റഹ്മാനി, ദാരിമി തുടങ്ങിയ വിവിധ സ്ഥാനപ്പേരുകൾ നൽകപ്പെടുന്നു. കൂടാതെ, നിരവധി അറബിക് കോളേജുകൾ ഇസ്ലാമിക വിദ്യാഭ്യാസത്തിൽ ബിരുദാനന്തര പഠനത്തിനുള്ള ബഹുമാന്യമായ സ്വകാര്യ കേന്ദ്രങ്ങളായി പ്രവർത്തിക്കുകയും പ്രതിവർഷം ആയിരക്കണക്കിന് ബിരുദധാരികളെ സംഭാവന ചെയ്യുകയും ചെയ്യുന്നു.</p>\n         <h2>സമന്വയ വിദ്യാഭ്യാസം </h2>\n         <p>ദാറുൽ ഹുദാ ഇസ്ലാമിക് യൂണിവേഴ്സിറ്റി (DHIU) (മുമ്പ് ദാറുൽ ഹുദാ ഇസ്ലാമിക് അക്കാദമി) സ്ഥാപിച്ചത് ഇസ്ലാമിക വിദ്യാഭ്യാസത്തിൽ വലിയൊരു മുന്നേറ്റം കൊണ്ടുവന്നു. ഇസ്ലാമിക മതപഠനങ്ങളെയും ആധുനിക അറിവുകളെയും സമന്വയിപ്പിച്ചുകൊണ്ട് സമകാലിക ആവശ്യകതകൾ നിറവേറ്റുന്ന ഒരു അക്കാദമിക് അന്തരീക്ഷം ഇവിടെ സൃഷ്ടിക്കപ്പെട്ടു. ഇന്നത്തെ ലോകത്ത് ഇസ്ലാമിനെ ഫലപ്രദമായി പ്രതിനിധീകരിക്കാൻ കഴിവുള്ള ഒരു പുതിയ തലമുറയിലെ മുസ്ലിം പണ്ഡിതന്മാരെ വളർത്തിയെടുക്കുക എന്നതാണ് സർവകലാശാലയുടെ ലക്ഷ്യം. പരമ്പരാഗത ഇസ്ലാമിക ഗ്രന്ഥങ്ങൾ, പ്രായോഗിക അറിവ്, ഇസ്ലാമിക ശാസ്ത്രങ്ങൾ എന്നിവയിൽ വിദ്യാർത്ഥികൾക്ക് സമഗ്രമായ പരിശീലനം നൽകുന്നു. കൂടാതെ, ഡി.എച്ച്.ഐ.യുവിൽ പഠിക്കുന്നതോടൊപ്പം തന്നെ സംസ്ഥാന-ദേശീയ സർവകലാശാലകളിൽ നിന്നുള്ള വിദൂര പഠനത്തിനുള്ള അവസരങ്ങളും അവർക്ക് ലഭിക്കുന്നു. ഡി.എച്ച്.ഐ.യുവിന്റെ 12 വർഷത്തെ പഠന പരിപാടി അറബി, ഇംഗ്ലീഷ്, ഉറുദു, മലയാളം എന്നീ ഭാഷകളിലെ പ്രാവീണ്യത്തിന് ഊന്നൽ നൽകുകയും വിദ്യാർത്ഥികൾക്കിടയിൽ സമഗ്രമായ ഭാഷാപരമായ കഴിവുകൾ ഉറപ്പാക്കുകയും ചെയ്യുന്നു</p>",
+      "cover_image": "samasta.png",
+      "card_image": null,
+      "author_name": "Student",
+      "author_role": "",
+      "author_avatar": null,
+      "label": null,
+      "style": "standard",
+      "show_share": false,
+      "read_time": null,
+      "published_at": "2026-05-28",
+      "status": "published",
+      "meta_description": null,
+      "cover_alt": null
+    },
+    {
+      "slug": "shaikhuna",
+      "category": "ahkaam",
+      "title": "ശൈഖുനാ ; കേരളീയ കർമശാസ്ത്ര നായകൻ",
+      "excerpt": "പണ്ഡിതന്മാരുടെ മരണം കൊണ്ടാണ് അള്ളാഹു ഇൽമിനെ ഊരിയെടുക്കുക.കേരളം കണ്ട ശൈഖുനാ ചെറുശ്ശേരി സൈനുദ്ധീൻ മുസ്ലിയാരെന്ന കർമശാസ്ത്ര പണ്ഡിതന്റെ വിയോഗം ഈ സമുദായത്തിന് നികത്താനാവാത്ത നഷ്ടം തന്നെയാണ്.",
+      "body": "<p>പണ്ഡിതന്മാരുടെ മരണം കൊണ്ടാണ് അള്ളാഹു ഇൽമിനെ ഊരിയെടുക്കുക.കേരളം കണ്ട ശൈഖുനാ ചെറുശ്ശേരി സൈനുദ്ധീൻ മുസ്ലിയാരെന്ന കർമശാസ്ത്ര പണ്ഡിതന്റെ വിയോഗം ഈ സമുദായത്തിന് നികത്താനാവാത്ത നഷ്ടം തന്നെയാണ്. </p>\n<p>പൊന്തക്കാട്ടിലേക്കെറിഞ്ഞ സ്വർണനാണയങ്ങൾക്കായി വെട്ടിത്തെളിച്ച് കൊണ്ടു വെട്ടിയ കൊണ്ടോട്ടിയിൽ അറിവിന്റെ സാഗരമൊഴുക്കിയ മഖ്ദൂം കുടുംബത്തിന്റെ നേതൃത്വം സമാപിക്കുമ്പോൾ പിൻഗാമികളായ വന്ന ചെറുശ്ശേരി കുടുംബത്തിലെ പണ്ഡിത ശൃംഖലയിൽ അവസാന കണ്ണിയായി ഉദയം കൊണ്ട പ്രകാശമാണ് ശൈഖുനാ ചെറുശ്ശേരി സൈനുദ്ധീൻ മുസ്‌ലിയാർ. നേതൃസ്ഥാനങ്ങളിലിരിക്കുമ്പോഴും സാധാരണക്കാരിൽ സാധാരണക്കാരനായി ജീവിച്ച മഹാമനീഷി..! വിനയത്തിന്റെ പര്യായമായിരുന്നു മഹാന്റെ ജീവിതം. </p>\n         <p>സമസ്ത കേരള ജംഇയ്യത്തുൽ ഉലമയുടെ എഴുപതാം വാർഷിക സമ്മേളനത്തിൽ ശംസുൽ ഉലമ ഇ.കെ അബൂബക്കർ മുസ്‌ലിയാർ പ്രഭാഷണാനന്തരം എഴുന്നേറ്റ് പോവാനൊരുങ്ങിയപ്പോൾ വേദിയുടെ പിൻഭാഗത്തേക്ക് തിരിഞ്ഞ് നിന്ന് അദ്ദേഹത്തെ ചൂണ്ടി വിളിച്ച് തന്റെ ഇരിപ്പിടത്തിലിരുത്തിയത് തന്റെ പിൻഗാമിയായി സൈനുൽ ഉലമ വരണമെന്ന് മുൻ കണ്ടുകൊണ്ടായിരിക്കണം.സമസ്തയുടെ സെക്രട്ടറി പദവിയിലിരുന്ന് അദ്ദേഹം കേരളത്തിന് ആത്മീയ നേതൃത്വം നൽകി. യഥാർത്ഥത്തിൽ ശംസുൽ ഉലമയുടെ പിൻഗാമി തന്നെയായിരുന്നു ശൈഖുനാ. ഇരുപതാണ്ടുകാലം സമസ്തയിൽ സേവനമനുഷ്ടിച്ച അദ്ദേഹത്തിന്റെ ഫത്‌വ നൈപുണ്യം ഏവരെയും അമ്പരപ്പിക്കുന്നതാണ്. ഏതൊരു മസ്അലക്കും അറുത്തുമുറിച്ച മറുപടിയുണ്ടായിരുന്നു അവിടെ. ഒരിക്കൽ പോലും ഒരു ഫത്‌വയും മാറ്റിപ്പറയേണ്ട ആവശ്യം വന്നിട്ടില്ല. വളരെ രസകരമായ രീതിയിൽ മറുചോദ്യമുന്നയിച്ച് കൊണ്ടായിരിക്കും മിക്കപ്പോഴും മറുപടികൾ. തമാശക്കാരനായിരുന്നു. കണ്ണിയത്ത് ഉസ്താദും ശംസുൽ ഉലമയും അവസാന കാലങ്ങളിൽ ആരെങ്കിലും ഫത്‌വകൾ ചോദിച്ച് വരുമ്പോൾ ചെറുശ്ശേരി ഉസ്താദിനെ സമീപിക്കാൻ പറയാറുണ്ടായിരുന്നു. പാണക്കാട് സയ്യിദ് മുഹമ്മദലി ശിഹാബ് തങ്ങളോടും ഭേദിക്കാനാവാത്ത ബന്ധമുണ്ടായിരുന്നു. ത്വലാഖിന്റെയും മാസപ്പിറവിയുടെയും കാര്യങ്ങളിൽ അവർ പരസ്പരം ചർച്ച ചെയ്ത് തീരുമാനമെടുക്കാറുണ്ടായിരുന്നു.</p>\n      <p>ശിഷ്യഗണങ്ങൾക്കൊക്കെയും ഒരു രക്ഷിതാവിന്റെ സ്ഥാനത്തായിരുന്നു ഉസ്താദ്. എല്ലാവരെയും ഒരുപോലെ പരിഗണിച്ചിരുന്ന ഉത്തമസ്വഭാവത്തിനുടമ..! ഓരോരുത്തർക്കും ഉസ്താദ് തന്നെയാണ് ശ്രദ്ധിക്കുന്നതെന്ന് തോന്നുമായിരുന്നു. ദാറുൽ ഹുദായുടെ മണ്ണിൽ തന്നെ മറവ് ചെയ്യണമെന്ന് അദ്ദേഹം വസ്വിയ്യത്ത് ചെയ്തു. ഓരോ നേരവും പള്ളിയിലേക്ക് വരുമ്പോൾ സലാം പറയാനും ദുആ ചെയ്യാനും തന്റെ കുട്ടികളുണ്ടാകുമല്ലോ എന്നാണ് അദ്ദേഹം ചിന്തിച്ചത്. </p>\n        <p>ആ മഹാന്റെ തണലിൽ ഇൽമിന്റെ ആളുകളായി ജീവിച്ചു പോരുന്ന എത്ര പേർക്ക് ആശ്വാസമാണ് ശൈഖുനായുടെ സാന്നിധ്യം..! ഫത്‌വയുടെ കാര്യത്തിൽ പഠിച്ചു പറയുകയും അറിയാത്തത് അറിയില്ലെന്ന് തുറന്ന് പറയുകയും ചെയ്യുന്ന സമീപനമായിരുന്നു മഹാന്റെത്. ആ മഹാമനീഷിയുടെ കൂടെ നാളെ സ്വർഗത്തിൽ ഒരുമിച്ചു കൂടാൻ അള്ളാഹു തആല തൗഫീഖ് ചെയ്യട്ടെ...ആമീൻ\n\n        </p>",
+      "cover_image": "shaikhuna.jpg",
+      "card_image": null,
+      "author_name": "Fathima Rushda P",
+      "author_role": "Degree Last Year",
+      "author_avatar": null,
+      "label": null,
+      "style": "standard",
+      "show_share": false,
+      "read_time": null,
+      "published_at": "2026-05-28",
+      "status": "published",
+      "meta_description": null,
+      "cover_alt": null
+    },
+    {
+      "slug": "arbmlm",
+      "category": "meetthescholar",
+      "title": "അറബി മലയാളം; സൂഫിപ്പൊരുളിൽ വിരിഞ്ഞ ലിപിപൈതൃകം",
+      "excerpt": "\"പണ്ട് പായക്കപ്പലേറി വന്ന ഇസ്‌ലാം മതത്തിനൊപ്പം മലയാള മണ്ണിലേക്ക് കുടിയേറി വന്ന ഒരു ഭാഷയാണ് അറബി മലയാളം\" എന്നതാണ് മദ്രസ പാഠപുസ്തകങ്ങളിൽ മാത്രം ഈ ഭാഷയെ പഠിച്ചറിഞ്ഞ നമ്മുടെയും, അറബി മലയാളം എഴുതാനും വായിക്കാനുമൊന്നുമറിയില്ലെങ്കിലും ഇങ്ങനെയൊരു ഭാഷ ഉണ്ടായിരുന്നു എന്ന് മാത്രമറിയുന്ന പലരുടെയും മിഥ്യാധാരണ.",
+      "body": "<p>\"പണ്ട് പായക്കപ്പലേറി വന്ന ഇസ്‌ലാം മതത്തിനൊപ്പം മലയാള മണ്ണിലേക്ക് കുടിയേറി വന്ന ഒരു ഭാഷയാണ് അറബി മലയാളം\" എന്നതാണ് മദ്രസ പാഠപുസ്തകങ്ങളിൽ മാത്രം ഈ ഭാഷയെ പഠിച്ചറിഞ്ഞ നമ്മുടെയും, അറബി മലയാളം എഴുതാനും വായിക്കാനുമൊന്നുമറിയില്ലെങ്കിലും ഇങ്ങനെയൊരു ഭാഷ ഉണ്ടായിരുന്നു എന്ന്  മാത്രമറിയുന്ന പലരുടെയും മിഥ്യാധാരണ. എന്നാൽ ചരിത്രത്തിന്റെ താളുകളിലേക്കിറങ്ങിച്ചെല്ലുമ്പോൾ അവിടെ മനോഹരമായൊരു ചിത്രം കാണാൻ സാധിക്കും. ജാതി - വർഗ വിവേചനങ്ങളാൽ കലുഷിതമായിരുന്ന സമുദായത്തിന് 'അല്ലാഹു' എന്ന പരമ ശക്തിയെ പരിചയപ്പെടുത്തിക്കൊടുക്കുക എന്ന മഹാദൗത്യത്തിന് ജീവൻ പകർന്ന ഒരു വിപ്ലവസംസ്കാരം. </p>\n<h2>തീരത്തണഞ്ഞ ഭാഷാ പൈതൃകം</h2>\n<p>കേരളത്തിന്റെ ഭൂമിവിശേഷം അതിമനോഹരമാണ്. കിഴക്ക് വശം പശിമഘട്ട മലനിരകൾ കൊണ്ട് അടച്ചിടപ്പെട്ട ഈ മണ്ണിന്റെ പടിഞ്ഞാറ് ലോകർക്കായി തുറന്നിട്ട പഞ്ചാരമണലിന്റെ വാതായനങ്ങളാണ്. ഈ അക്കാലത്തെ സാംസ്കാരിക കൈമാറ്റത്തിന്റെ പ്രധാനകേന്ദ്രങ്ങളിലൊന്നായി വർത്തിച്ചു.</p>\n<p>നൈൽ നദിയിലൂടെ ഒഴുകിയെത്തിയ മൂസാ നബിയെ പോലെ അറബിക്കടലിന്റെ തിരയിളക്കങ്ങളിലൂടെ നമ്മിലേക്ക് കടന്നു വന്ന വരദാനമാണ് ഇസ്‌ലാം. ഇസ്‌ലാം കേരളമണ്ണിലേക്കെത്തുമ്പോൾ ഇവിടെയുള്ള സാമൂഹിക സ്ഥിതി അതിഖേദകരമായിരുന്നു. കേട്ടാൽ അറപ്പ് തോന്നാത്ത ഒരു പേരും കീഴാളന്മാർ ഇടാൻ പാടില്ല എന്ന എഴുതപ്പെടാത്ത ഭരണഘടനയാണ് കേരളത്തിന്റെ ഗതകാല ചരിത്രം. </p>\n  <p>നമ്മിലൊരാൾക്കും ഒരു കടയിൽ ചെന്ന് ഉപ്പ് വാങ്ങാൻ യാതൊരു ഭയവുമില്ലാത്ത ഈ കാലത്തു നിന്ന് വായിക്കുമ്പോൾ  കീഴാളന്മാർ ഉപ്പിന് 'ഉളിച്ചത്' എന്ന മാത്രം പറയാൻ പാടുള്ളൂ എന്ന നിയമം ഇവിടെ നിലനിന്നിരുന്നു എന്നതൊരു കൗതുകത്തിനിട വരുത്തുമെങ്കിലും അതായിരുന്നു നമ്മുടെ കഴിഞ്ഞ നാളുകൾ എന്നത് പരമമായ സത്യമാണ്.</p>\n  <h2>ഭാഷാ വിടവുകളും ലിപിയുടെ ജനനവും</h2>\n  <p>ഇത്തരമൊരു സമുദായത്തിനോടാണ് ഇസ്‌ലാം മതത്തിന് സംവദിക്കേണ്ടിയിരുന്നത്. എന്നാൽ ഭാഷ അവർക്കിടയിലൊരു വെല്ലുവിളിയുടെ മതിൽ പണിതു. ഇസ്‌ലാം മതത്തിന്റെ കേന്ദ്രപദങ്ങളായ \"അല്ലാഹു , മുഹമ്മദ്, ഖുർആൻ\" എന്നിവ പോലും ഉൾക്കൊള്ളാനുള്ള ശേഷി മലയാള ഭാഷക്കില്ലായിരുന്നു. അത് പോലെ \"മലയാളം\" എന്ന പേര് അറബിയിലും എഴുതാൻ സാധിക്കില്ല. നമ്മൾക്ക് സുപരിചിതമായ ഫള്ഫരി എന്ന കുടുംബ പേര്  അവരുടെ ദേശമായ പള്ളിപ്പുറം എന്നതിൽ നിന്ന് ഉരുത്തിരിഞ്ഞു വന്നതാണെന്ന വസ്തുതയിൽ നിന്ന് തന്നെ അറബിയെ മലയാളത്തിലേക്കും മലയാളത്തെ അറബിയിലേക്കും കൂട്ടിച്ചേർക്കുന്നതിന്റെ വിടവ് വ്യക്തമാക്കുന്നുണ്ട്. ആകെ 28 അക്ഷരങ്ങളുള്ള അറബിയിലെ  13 അക്ഷരങ്ങൾക്ക് സമാനമായ അക്ഷരങ്ങൾ മലയാള ഭാഷയിലില്ല എന്നതായിരുന്നു ഏറ്റവും വലിയ പരിമിതി.\n</p>\n  <p>പ്രദേശവാസികളുടെ ഈണത്തോടും പദാവലിയോടുമിഴകി ചേർന്ന് പ്രാദേശിക ഭാഷയിൽ മതം പഠിപ്പിക്കാനുള്ള ശ്രമങ്ങൾ വിവിധ ത്വരീഖത്തുകാർ ആരംഭിച്ചതോടെയാണ് അറബിയും മലയാളവും സംയോജിപ്പിച്ച് പുതിയൊരു ഭാഷക്ക് ജന്മം നൽകുക എന്ന ആശയം ഉദിച്ചു വന്നത്. കുത്തും പുള്ളികളുമൊന്നുമില്ലാതെ എഴുതിയിരുന്ന ഖുർആനിൽ ജനങ്ങൾക്ക് തിരിച്ചറിയാനായി ഉസ്മാൻ (റ) അവയെല്ലാം കൂട്ടിച്ചേർത്തത് പോലെ കുറച്ചധികം പുള്ളികൾ ചേർത്ത് 'പ' 'ച' പോലുള്ള പുതിയ അക്ഷരങ്ങൾ രൂപാന്തരപ്പെട്ടു. ഈ ഭാഷയിലൂടെ അലക്കുകാരൻ വസ്ത്രങ്ങൾ അലക്കുകല്ലിലടിച്ച്  വെളുപ്പിക്കുന്നത് പോലെ ശൈഖുമാർ ജനഹൃദയങ്ങളെ മതമൂല്യങ്ങൾ കൊണ്ട് ശുദ്ധീകരിച്ചു. അറബിമലയാളത്തിലെ ആദ്യകൃതിയെന്ന് പറയപ്പെടുന്ന മുഹ്യുദ്ധീൻ മാലയിൽ ഈ പരിവർത്തനത്തിന്റെ വിശേഷിപ്പിച്ചതിങ്ങനെ: <em><br>അറിവും നിലയുമതൊന്നു മില്ലാത്തോർക്ക്  <br>\nഅറിവും നിലയും കൊടുത്തവർ ശൈഖ് </em>\n</p>\n  <p>മലയാള ഭാഷക്ക് അറബിമലയാളത്തിന് പുറമെ ഒരുപാട് വകഭേദങ്ങൾ ഉണ്ടായിട്ടുണ്ട് എന്നതിന് ബ്രഹ്മി, കോലെഴുത്ത്, വട്ടെഴുത്ത്, സുറിയാനി തുടങ്ങിയവ ഉദാഹരണങ്ങളാണ്. എന്നാൽ വട്ടെഴുത്തിന് ഒരു തമിഴ് പാരമ്പര്യമുണ്ടായിരുന്നതിനാൽ തന്നെ ഒരുപാട് വാക്കുകൾക്ക് രൂപമാറ്റം സംഭവിച്ചു. ശ്രീദേവി എന്നത് ചിരുതേയി എന്നാവുന്നതും സിംഹത്തിന്റെ രൂപത്തിൽ ആകാശത്ത് നക്ഷത്രങ്ങൾ അണിനിരക്കുന്ന മാസത്തിന് ചിങ്ങം എന്ന് പേര് വന്നതും അവയിൽ ചിലത് മാത്രം. അതിനാൽ തന്നെ 1823ൽ ബെഞ്ചമിൻ ബെയ്‌ലി മലയാള ഭാഷയിൽ പുസ്തകങ്ങളച്ചടിച്ചപ്പോൾ തെരഞ്ഞെടുത്തത് ഗ്രന്ഥലിപിയായിരുന്നു. ഇത്രയും വകഭേദങ്ങളിൽ നിന്ന് ഗ്രന്ഥലിപിക്കൊപ്പം അച്ചടിക്കപ്പെട്ട മറ്റൊരു രൂപം അറബി മലയാളമായിരുന്നു എന്നതാണ് വിസ്മയം..!</p>\n  <h2>വിജ്ഞാന വിസ്മയങ്ങളുടെ ഭാഷാ സംസ്കാരം</h2>\n  <p>ഒരു ഭാഷ എങ്ങനെ പ്രയോഗിക്കാമോ അത് പോലെയെല്ലാം പ്രയോഗവത്കരിക്കപ്പെട്ടിട്ടുള്ള ഒരു ഭാഷയാണ് അറബി മലയാളം എന്ന് തിരിച്ചറിയാൻ തേഞ്ഞിപ്പലം കാലിക്കറ്റ് കോളേജിലെ സി എച്ച് ചെയറിനടുത്തുള്ള ആയിരത്തിമുന്നൂറിലധികം പുസ്തകങ്ങൾ തന്നെ ധാരാളം!\nആയിരത്തി തൊള്ളായിരത്തി ഇരുപതുകളിൽ തന്നെ ഇംഗ്ലീഷ് ഭാഷ പഠിപ്പിക്കാൻ വേണ്ടി അറബി മലയാളത്തിലുള്ള പുസ്തകങ്ങൾ ഉണ്ടായിരുന്നു എന്നതാണ് വാസ്തവം. മാത്രമല്ല സലാഹുൽ ഇഖ്‌വാൻ എന്ന പത്രവും, സ്ത്രീകൾക്ക് മാത്രമായുള്ള മാസികകളും നിലവിൽ വന്നിരുന്നു എന്നത് മാത്രമല്ല പട്ടണത്ത് കുഞ്ഞിമായീൻ കുട്ടി വൈദ്യരുടെ പക്കൽ എ ഡി ഏഴാം നൂറ്റാണ്ടിൽ ജീവിച്ച വാഗ്ഭടൻ രചിച്ച പ്രശസ്ത ആയുർവേദഗ്രന്ഥമായ അഷ്ടാംഗ ഹൃദയത്തിന്റെ അറബി മലയാള പതിപ്പ് ഉണ്ടായിരുന്നു എന്നത് തന്നെ മാപ്പിളമാർക്കിടയിലെ അറബി മലയാളത്തിന്റെ സ്വാധീനം വ്യക്തമാക്കിത്തരുന്നു.\n</p>\n  <p>സ്വദേശാഭിമാനി പത്രത്തിന്റെ സ്ഥാപകനായ വക്കം മൗലവി 1906-ൽ മുസ്ലിം മാസിക ശുദ്ധമലയാളത്തിൽ തുടങ്ങിയപ്പോൾ വിചാരിച്ചത്ര ജനപ്രീതി നേടിയില്ല. അതിന് കാരണം ഭാഷയായതിനാൽ തന്നെ പിന്നീട് അറബിമലയാളത്തിലാണ് അവ പ്രസിദ്ധീകരിക്കപ്പെട്ടത്. ഈ സ്ഥിതിവിശേഷങ്ങളെല്ലാം തെളിയിച്ചു തരുന്നത് ഒന്നാണ് ; നമ്മുടെ ചരിത്രം പരിശോധിക്കുമ്പോൾ അറബി മലയാളമെന്ന ഭാഷാ സംസ്കാരത്തെ മാറ്റിനിർത്തിയാൽ സാംസ്കാരികമായി തികച്ചും ശബ്ദശൂന്യമായ ഒരു സമൂഹമായി നമ്മൾ മാറും എന്ന യാഥാർഥ്യം.</p>\n<h2>സാംസ്കാരിക ഈണങ്ങളും പ്രതിനിധാന പ്രതിസന്ധിയും</h2>\n  <p>ഇടശ്ശേരിയുടെ പൂതപ്പാട്ടിനെതിരെ പറയുന്നതിനിടയിൽ നിരൂപകൻ ചങ്കുണ്ണി നായർ പറയുന്നു : മലയാളത്തിലെ കവികൾക്കിടയിൽ ഹൈന്ദവേതര വിഭാഗക്കാർ കൊള്ളാവുന്നവരില്ല. കാരണം, മലയാള ഭാഷയുടെ ഈണങ്ങളും പദാവലികളും ഹൈന്ദവമാണ്. പ്രവാചകപുംഗവർ മുഹമ്മദ് (സ്വ)യുടെ വർണനകൾക്കിടയിൽ എപ്പോഴും കടന്നുവരുന്ന ഒരു വാചകമാണ് 'അവതാരം' എന്നത്. ഹൈന്ദവ ദർശനങ്ങളിൽ, പ്രപഞ്ചത്തിന്റെ നിലനിൽപ്പിന് ഭീഷണിയാകുന്ന അധർമ്മങ്ങളെ നശിപ്പിച്ച് ധർമ്മം പുനഃസ്ഥാപിക്കാൻ വേണ്ടി ഈശ്വരൻ (പ്രത്യേകിച്ച് വിഷ്ണു ഭഗവാൻ) മനുഷ്യനായോ മൃഗമായോ ഭൂമിയിലേക്ക് ശരീരമെടുത്ത് ഇറങ്ങിവരുന്നതിനെയാണ് അവതാരം എന്ന് വിളിക്കുന്നത്. എന്നാൽ ഇസ്ലാം മത വിശ്വാസികളായ നമ്മൾക്ക് ഖുർആൻ പ്രവാചകരെ മനസ്സിലാക്കിത്തന്നത് 'അബ്‌ദുഹു വ റസൂലുഹു' (ദൈവത്തിന്റെ ദാസനും ദൂതനും) എന്ന നിലയ്ക്കായതിനാൽ ഈ പ്രസ്താവന ആശയപരമായി പൊരുത്തപ്പെടുന്നില്ല. ഈ പദം ഒഴിവാക്കാൻ ആഗ്രഹിച്ചാൽപ്പോലും അതിന് സമാനമായ അർത്ഥതലങ്ങളുള്ള മറ്റ് പദങ്ങൾ ശുദ്ധമലയാളത്തിൽ കണ്ടെത്തുക പ്രയാസമാണ്. അതിനാൽത്തന്നെ, ഇത്തരം തനത് സാംസ്കാരിക ഈണങ്ങളും ആശയങ്ങളും പ്രതിധ്വനിപ്പിക്കാൻ അറബിമലയാളത്തിന് മാത്രമേ സാധിക്കൂ എന്ന വാദം ഏറെ പ്രസക്തമാണ്.</p>\n  <p>മലയാളം കമ്പ്യൂട്ടിങ് രംഗത്ത് വിപ്ലവകരമായ മാറ്റം കുറിച്ച രചന ഫോണ്ടുകളുടെ രൂപകർത്താവായ  പ്രശസ്ത ഫോണ്ട് ഡിസൈനറും കമ്പ്യൂട്ടിങ് വിദഗ്ദ്ധനുമായ കെ. എച്ച്. ഹുസൈൻ ഇപ്രകാരം ആത്മവിമർശനം നടത്തുന്നുണ്ട് : ഈ ഫോണ്ട് പൂർണമായി ജനറേറ്റ് ചെയ്യുന്നതിൽ ഞാൻ വിജയിച്ചിട്ടില്ല. കാരണം, മാപ്പിളമാർക്കും ആദിവാസികൾക്കും ആവശ്യമായ പല സവിശേഷ സ്വരങ്ങളും ഇതിൽ ഉൾപെടുത്താൻ എനിക്ക് സാധിച്ചിട്ടില്ല. അതെ, നമ്മൾ മാതൃഭാഷയായി കൊണ്ടാടുന്ന അമ്മ മലയാളത്തിന് ഇത് വരെയും നമ്മളെ പ്രതിനിധീകരിക്കാനുള്ള ശേഷി കൈവന്നിട്ടില്ല.</p>\n<h2>ചരിത്രത്താളുകളിലെ പൊള്ളത്തരങ്ങൾ</h2>\n<p>ചരിത്രത്താളുകളിൽ ഇത്രയേറെ സവിശേഷതകളും സംഭാവനകളുമുണ്ടായിട്ടും, ഇന്നും അറബിമലയാളം തിരസ്കാരത്തിന്റെ മുദ്രചാർത്തപ്പെട്ട ഒരു പൈതൃകമായി അവശേഷിക്കുകയാണ്. മഹാകവി മോയിൻകുട്ടി വൈദ്യരുടെ 'ബദ്‌റുൽ മുനീർ ഹുസ്‌നുൽ ജമാൽ' എന്ന കാവ്യത്തെക്കുറിച്ച് പഠനം നടത്തിയ പ്രശസ്ത ഗവേഷകൻ വി.സി. ഹാരിസ്  തന്റെ പഠനത്തിന്റെ ആമുഖത്തിൽ വൈദ്യരെക്കുറിച്ച് എഴുതിയത് ഇതിനൊരു മികച്ച ഉദാഹരണമാണ്. മോയിൻകുട്ടി വൈദ്യരുടെ ഈ കൃതി വളരെ ജനകീയമാണെന്നും അദ്ദേഹം മികച്ചൊരു കവിയാണെന്നും അറബി പശ്ചാത്തലങ്ങളെ മുൻനിർത്തിയാണ് കവിത രചിച്ചിരിക്കുന്നതെന്നും പ്രശംസിച്ച ശേഷം, അദ്ദേഹം നടത്തുന്ന നിരീക്ഷണം ഇപ്രകാരം വായിച്ചെടുക്കാനാവും: <em>'എങ്കിലും ഇദ്ദേഹവും മറ്റെല്ലാ മാപ്പിളമാരെയും പോലെ നിരക്ഷരനായിരുന്നു...!'</em></p>\n<p>നമ്മെക്കുറിച്ച് പഠനം നടത്തിയ വിദേശികളോ പരദേശികളോ ആയ ഗവേഷകർ മാത്രമല്ല, നാമടങ്ങുന്ന സമകാലിക സമൂഹം വരെ അറിയാതെയെങ്കിലും ഈ സാംസ്കാരിക അവഗണനയുടെ ഉത്തരവാദികളായിത്തീരുന്നുണ്ട്. കേരളം ഏറെ ആഘോഷിച്ച സാക്ഷരതാ പ്രസ്ഥാനത്തിന്റെ ചരിത്രം പരിശോധിച്ചാൽ ഇത് വ്യക്തമാകും. കേരളം സമ്പൂർണ്ണ സാക്ഷരത കൈവരിച്ചതിന്റെ പ്രതീകമായി അന്ന് ഉയർത്തിക്കാട്ടപ്പെട്ടത് ചേലാടൻ ആയിശുമ്മയെയായിരുന്നു. എന്നാൽ, ആ പ്രസ്ഥാനം വരുന്നതിന് എത്രയോ പതിറ്റാണ്ടുകൾക്ക് മുമ്പ് തന്നെ അറബിമലയാളം നന്നായി എഴുതാനും വായിക്കാനുമറിയുന്ന സ്ത്രീയായിരുന്നു അവർ. 'ഏതെങ്കിലും ഒരു ഭാഷയിൽ എഴുതാനും വായിക്കാനുമറിയുന്ന ഒരാൾ സാക്ഷരനാണ്' എന്ന ഐക്യരാഷ്ട്രസഭയുടെ (UN) കൃത്യമായ മാനദണ്ഡം നിലനിൽക്കെത്തന്നെയാണ്, സാക്ഷരതാ പ്രസ്ഥാനത്തിന് മുമ്പുണ്ടായിരുന്ന ആയിശുമ്മയെ നമ്മുടെ വ്യവസ്ഥിതി 'നിരക്ഷര'യായി മുദ്രകുത്തിയത്! ഔദ്യോഗിക ഭാഷയുടെ ലിപിയറിയാത്തതുകൊണ്ട് മാത്രം ഒരു ജനതയുടെ ജ്ഞാനപാരമ്പര്യത്തെ മുഴുവൻ അക്ഷരശൂന്യമെന്ന് വിധി എഴുതിയ ഈ ചരിത്രപരമായ വിവേചനം ഇന്നും തിരുത്തപ്പെട്ടിട്ടില്ല.\"</p>\n<h2>സാംസ്കാരിക അപരവത്കരണവും വിരോധാഭാസങ്ങളും</h2>\n<p>നമ്മുടെ തനതായ ഭാഷയും പൈതൃകവും ഇത്രയേറെ അവഗണനകൾ നേരിടുന്നു എന്നതിന്റെ യഥാർത്ഥ ഉത്തരവാദികൾ നാം തന്നെയാണ്. ആധുനികവൽകരണത്തിനൊപ്പം കുതിക്കുമ്പോൾ നാം കണ്ടില്ലെന്ന് നടിക്കുന്ന അനേകം പൈതൃകങ്ങളിൽ ഒന്നുമാത്രമാണ് ഈ ഭാഷ. പ്രശസ്ത നോർവീജിയൻ ഗവേഷകനായ യോഹാൻ ഗാൽതുങ് തന്റെ പഠനങ്ങളിലൂടെ മുന്നോട്ടുവെച്ച 'അക്രമത്തിന്റെ ത്രികോണം' (Violence Triangle) എന്ന സിദ്ധാന്തം ഇന്ന് നമുക്കിടയിലെ സാംസ്കാരികാവസ്ഥയെ കൃത്യമായി അടയാളപ്പെടുത്തുന്നുണ്ട്. അദ്ദേഹത്തിന്റെ കാഴ്ചപ്പാടിൽ, ഒരു സമൂഹത്തിന് സാംസ്കാരികമായ പ്രാതിനിധ്യം നിഷേധിക്കപ്പെടുന്നത് ഒടുവിൽ സാംസ്കാരിക അക്രമത്തിലേക്കും (Cultural Violence) ഘടനപരമായ അക്രമത്തിലേക്കും (Structural Violence) നയിക്കുന്നു. ഇത് പിന്നീട് സ്ഥിതി ഗുരുതരമാക്കിക്കൊണ്ട് നേരിട്ടുള്ള അക്രമങ്ങളിലേക്ക് (Direct Violence) വഴിമാറാനുള്ള സാധ്യതയുമുണ്ട്. ഇന്ന് സ്റ്റേജുകളിലും പേജുകളിലും സജീവമാകുന്ന ഇസ്‌ലാമോഫോബിയയുടെ യഥാർത്ഥ കാരണവും ഈ സാംസ്കാരിക അപരവൽകരണം തന്നെയാണെന്ന് ആണയിട്ടു പറയാനാവും. ഇനിയും ഈ സ്ഥിതി തുടർന്നാൽ, ഒടുവിൽ നമ്മളടക്കം നമുക്കെതിരെ തിരിയാൻ തുടങ്ങുമെന്നതിൽ യാതൊരുവിധ സംശയവുമില്ല.</p>\n<p>ബ്രിട്ടീഷുകാരുടെ കാലത്ത് മാപ്പിള കലാപം നയിച്ച വീരശൂരപരാക്രമികളുടെ പാരമ്പര്യത്തിന്റെ  കഥ പറഞ്ഞുകൊണ്ടിരിക്കുന്ന നമ്മൾ അറബി മലയാളത്തിന്റെ വക്താക്കളാണെന്ന് വാദിക്കുകയും ആ ഭാഷയെ സംരക്ഷിക്കേണ്ട ചുമതലകളൊന്നും ഏറ്റെടുക്കാതിരിക്കുകയും ചെയ്യുന്ന വിരോധാഭാസമാണ് ഇന്ന് അരങ്ങേറിക്കൊണ്ടിരിക്കുന്നത്. അതെ, പൂർണമായും തമസ്കരിക്കപ്പെട്ട, സാക്ഷരതക്ക് അംഗീകരിക്കപ്പെടാത്ത ഒരു സംസ്കാരത്തിന്റെ ഒന്നുമറിയാത്ത അനന്തരാവകാശികളാണ് നമ്മൾ..!</p>",
+      "cover_image": "arbmlmartcl.png",
+      "card_image": "arbmlmcardmedia.png",
+      "author_name": "Fathima Hanna M",
+      "author_role": "Degree Second Year",
+      "author_avatar": null,
+      "label": "MEET THE SCHOLAR",
+      "style": "standard",
+      "show_share": false,
+      "read_time": null,
+      "published_at": "2026-07-27",
+      "status": "published",
+      "meta_description": null,
+      "cover_alt": null
+    },
+    {
+      "slug": "fiqh-sample-post",
+      "category": "ahkaam",
+      "title": "Understanding intention in everyday worship",
+      "excerpt": "Why the smallest acts carry weight, and how scholars have framed the question of intention across the centuries.",
+      "body": "<p>Every act of worship begins before the act itself — in the moment a person decides what they mean to do. This is the role of intention, or <em>niyyah</em>, and it is one of the most discussed concepts in Islamic jurisprudence precisely because it touches everything else.</p>\n\n          <p>Scholars have long pointed out that two people can perform an identical physical action and walk away having done two entirely different things, depending on what they intended. A person who gives money to a relative may be fulfilling an obligation, expressing kindness, or repaying a debt — the hand movement looks the same, but the meaning is different in each case.</p>\n\n          <blockquote>\n            Actions are judged by the intentions behind them, and every person will be rewarded according to what they intended.\n            <cite>— A foundational principle widely cited in classical jurisprudence</cite>\n          </blockquote>\n\n          <p>This principle shapes how scholars approach worship in practice. Prayer, fasting, charity, and pilgrimage are each treated differently depending on the intention a person holds at the outset, and jurists have written extensively on what counts as a valid intention, when it must be formed, and whether it can be revised partway through an act.</p>\n\n          <h2>Why intention is treated as foundational</h2>\n\n          <p>The emphasis on intention is not simply about inner sincerity — it has practical consequences for how rulings are applied. A fast begun without the intention to fast, for instance, is treated differently from one undertaken with clear purpose, even if the outward behavior, abstaining from food and drink, looks identical in both cases.</p>\n\n          <p>This is part of why the tradition spends so much time on definitions: what exactly distinguishes a passing thought from a settled intention, and how early must that intention form for an act of worship to count. Different schools of thought have arrived at different practical answers, though they share the same underlying premise.</p>\n\n          <h2>A practical takeaway</h2>\n\n          <p>For most readers, the detailed legal debate matters less than the habit it points toward: pausing, even briefly, to notice what you mean to do before doing it. That small pause is often where the real difference between a routine action and an act of worship is made.</p>",
+      "cover_image": "https://images.unsplash.com/photo-1591291621164-2c6367723315?q=80&w=1400&auto=format&fit=crop",
+      "card_image": null,
+      "cover_alt": "Placeholder cover image for the article",
+      "author_name": "Ust. Ahmad Faisal",
+      "author_role": "Islamic Studies Teacher, Darul Huda",
+      "author_avatar": "https://images.unsplash.com/photo-1607346256330-dee7af15f7c5?q=80&w=150&auto=format&fit=crop",
+      "label": "Fiqh",
+      "style": "standard",
+      "show_share": true,
+      "read_time": "6 min read",
+      "published_at": "2026-06-12",
+      "status": "draft",
+      "meta_description": null
+    },
+    {
+      "slug": "poemsample",
+      "category": "kurippathukal",
+      "title": "A poem for the quiet hour",
+      "excerpt": "Verses written between Maghrib and Isha, about waiting and what it teaches.",
+      "body": "<p>Between Maghrib and Isha\nthere is a door the sky leaves open —\na blue not quite night,\na light not quite gone.</p>\n\n          <p>I have learned to sit in it.\nNot to fill it with words\nor plans or the small urgency\nof everything that didn't get done.</p>\n\n          <p>Just to sit.\nThe way a cup sits empty\nbefore tea is poured —\nready, not lacking.</p>\n\n          <div class=\"poem-divider\">· · ·</div>\n\n\n          <p class=\"poem-malayalam\">മഗ്‌രിബിനും ഇശായ്ക്കും ഇടയിൽ\nആകാശം ഒരു വാതിൽ തുറന്നിടുന്നു —\nപൂർണ്ണരാത്രിയല്ലാത്ത നീലിമ,\nകൊഴിഞ്ഞുപോകാത്ത വെളിച്ചം.</p>\n\n          <p>That door closes quietly.\nYou won't hear it.\nBut by Isha you will notice\nyou are somehow more yourself.</p>",
+      "cover_image": "https://images.unsplash.com/photo-1490750967868-88aa4486c946?q=80&w=1400&auto=format&fit=crop",
+      "card_image": null,
+      "cover_alt": "Placeholder cover image — soft dusk sky",
+      "author_name": "Nida Rahman",
+      "author_role": "Poet & Contributing Writer",
+      "author_avatar": null,
+      "label": "Poem",
+      "style": "poem",
+      "show_share": true,
+      "read_time": "2 min read",
+      "published_at": "2026-06-14",
+      "status": "draft",
+      "meta_description": null
+    }
+  ],
+  "pages": [
+    {
+      "slug": "about",
+      "body": "<p>Gazva Insight is the official publication platform of the Gazva Students' Union of Fathima Zahra Islamic Women's College, Chemmad. Dedicated to knowledge, faith, and creativity, it features articles on the Quran, Fiqh, Islamic history, contemporary issues, and student reflections, alongside stories, poetry, and other creative works.</p>\n<h2>Vision</h2>\n<p>To nurture a generation of thoughtful Muslim researchers and writers who engage with revelation, tradition, and contemporary realities through authentic scholarship, intellectual curiosity, and responsible expression.</p>\n<h2>Mission</h2>\n<p>Our platform is dedicated to cultivating a vibrant culture of reading, research, and writing among students by providing a space for meaningful academic engagement across diverse fields of Islamic knowledge. <br>\n\n</p> <p>Through <span style=\"font-weight: 800;\">Tadabbur,</span> we encourage deep reflection on the Qur'an and its timeless guidance.\n <span style=\"font-weight: 800;\">Ahkaam</span> explores Islamic jurisprudence and its relevance to everyday life.   <span style=\"font-weight: 800;\">Global Affairs</span> examines contemporary social, political, and humanitarian issues through an informed Islamic perspective.  <span style=\"font-weight: 800;\">Siyar</span> reconnects readers with the lives, legacy, and historical experiences that have shaped the Muslim world.</p>\n\n <p><span style=\"font-weight: 800;\">Reflections</span> offers space for thoughtful essays, personal insights, and critical engagement with ideas, while  <span style=\"font-weight: 800;\">Bookshelf</span> promotes a culture of reading through reviews and discussions of classical and contemporary works. Through  <span style=\"font-weight: 800;\">Meet the Scholar,</span> we bring readers closer to scholars, researchers, and intellectuals whose experiences and insights inspire learning and meaningful dialogue.</p>\n\n<p>Together, these spaces aim to foster authentic scholarship, encourage critical thinking, strengthen academic writing, and contribute to a growing repository of beneficial knowledge for students and the wider community.\n\n</p>\n      <h2>Our editorial standard</h2>\n      <p>Every article is reviewed before publishing, with sources noted where relevant. When scholars differ on a question, we try to represent that difference honestly rather than flattening it into a single answer.</p>\n\n      <h2>Get in touch</h2>\n      <p>Have a question, a correction, or an idea for an article? Visit our <a href=\"/contact\" style=\"font-weight: 600;\">contact page</a> — we read every message.</p>",
+      "eyebrow": "About",
+      "title": "About GAZVA Insight",
+      "description": "What we publish, who writes for us, and the standard we hold ourselves to.",
+      "meta_description": "Learn about GAZVA Insights, our mission, vision, editorial values, and our commitment to promoting authentic Islamic knowledge through reading, research, and writing.",
+      "meta_title": "About — Gazva Insight"
+    },
+    {
+      "slug": "contact",
+      "body": "",
+      "eyebrow": "Contact",
+      "title": "Let’s Connect",
+      "description": "Whether you have a question, feedback, a correction, or an idea for a future article, we're always happy to hear from our readers.",
+      "meta_description": "Contact GAZVA Insights with your questions, feedback, article ideas, or collaboration inquiries. We'd love to hear from you.",
+      "meta_title": "Contact — Gazva Insights"
+    }
+  ]
+}
