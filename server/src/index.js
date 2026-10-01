@@ -84,10 +84,22 @@ if (hasBuild) {
 
 app.use(errorHandler);
 
-const server = app.listen(config.port, () => {
-  console.log(`✔ GAZVA Insight ${config.isProd ? '(production)' : '(development)'} on http://localhost:${config.port}${hasBuild ? '' : '  — API only, no client build found'}`);
-});
+// Export the Express app for Vercel
+export default app;
 
-const shutdown = () => server.close(() => pool.end().then(() => process.exit(0)));
-process.on('SIGTERM', shutdown);
-process.on('SIGINT', shutdown);
+// Start a normal server only when running locally
+if (!process.env.VERCEL) {
+  const server = app.listen(config.port, () => {
+    console.log(
+      `✔ GAZVA Insight ${config.isProd ? '(production)' : '(development)'} on http://localhost:${config.port}${
+        hasBuild ? '' : '  — API only, no client build found'
+      }`
+    );
+  });
+
+  const shutdown = () =>
+    server.close(() => pool.end().then(() => process.exit(0)));
+
+  process.on('SIGTERM', shutdown);
+  process.on('SIGINT', shutdown);
+}
