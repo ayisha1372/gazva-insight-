@@ -3,6 +3,7 @@ import path from 'node:path';
 import express from 'express';
 import helmet from 'helmet';
 import cookieParser from 'cookie-parser';
+import cors from 'cors';
 import { config } from './config.js';
 import { pool } from './db/pool.js';
 import { csrfGuard, requireAdmin } from './middleware/auth.js';
@@ -18,6 +19,10 @@ import siteRoutes from './routes/admin/site.js';
 import { loadIndexHtml, metaFor, renderIndex } from './utils/seo.js';
 
 const app = express();
+app.use(cors({
+  origin: config.clientOrigin,
+  credentials: true,
+}));
 app.disable('x-powered-by');
 if (config.trustProxy) app.set('trust proxy', config.trustProxy);
 
