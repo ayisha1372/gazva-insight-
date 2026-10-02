@@ -44,8 +44,7 @@ app.use(
       },
     },
     crossOriginEmbedderPolicy: false,
-    crossOriginResourcePolicy: { policy: 'same-site' },
-  })
+crossOriginResourcePolicy: { policy: 'cross-origin' },  })
 );
 app.use(cookieParser());
 app.use(express.json({ limit: '1mb' }));
