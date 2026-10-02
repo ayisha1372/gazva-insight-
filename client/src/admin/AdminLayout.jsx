@@ -5,7 +5,7 @@ import { useSite } from '../context/SiteContext.jsx';
 import {
   DashboardIcon, ArticleIcon, CategoryIcon, MediaIcon, MessageIcon, SettingsIcon, HomeIcon, LogoutIcon, MenuIcon, ExternalIcon,
 } from './components/icons.jsx';
-
+const API_BASE = import.meta.env.VITE_API_URL;
 const NAV = [
   { to: '/admin', label: 'Dashboard', icon: DashboardIcon, end: true },
   { to: '/admin/articles', label: 'Articles', icon: ArticleIcon },
@@ -39,7 +39,12 @@ export default function AdminLayout({ unreadCount = 0 }) {
       <div className="admin-shell">
         <aside className={`admin-sidebar${sidebarOpen ? ' is-open' : ''}`}>
           <div className="admin-sidebar__brand">
-            <img src={site.general.logo_url} alt="" width="34" height="34" />
+            <img
+  src={`${API_BASE}${site.general.logo_url}`}
+  alt=""
+  width="34"
+  height="34"
+/>
             <span>
               GAZVA Insight
               <small>Admin panel</small>

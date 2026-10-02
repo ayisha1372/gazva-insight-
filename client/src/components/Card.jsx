@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+const API_BASE = import.meta.env.VITE_API_URL;
 
 const FALLBACK_IMG =
   'data:image/svg+xml;utf8,' +
@@ -13,7 +14,11 @@ export default function Card({ article, size }) {
   return (
     <Link to={`/${article.category.slug}/${article.slug}`} className={`card${sizeClass}`}>
       <div className="card__media">
-        <img src={article.image || FALLBACK_IMG} alt="" loading="lazy" />
+        <img
+  src={article.image ? `${API_BASE}${article.image}` : FALLBACK_IMG}
+  alt=""
+  loading="lazy"
+/>
       </div>
       <div className="card__body">
         <span
