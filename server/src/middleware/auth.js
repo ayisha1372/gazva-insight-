@@ -5,7 +5,7 @@ import { query } from '../db/pool.js';
 export const cookieOptions = () => ({
   httpOnly: true,
   secure: config.cookieSecure,
-  sameSite: 'strict',
+  sameSite: 'none',
   path: '/',
 });
 
