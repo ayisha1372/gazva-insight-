@@ -54,8 +54,19 @@ export default function ArticlePage() {
           <div className="article-meta">
             <div className="article-meta__author">
               <span className="article-meta__avatar" style={!article.author_avatar ? { background: 'var(--teal-light)' } : undefined}>
-                {article.author_avatar && <img src={article.author_avatar} alt="" loading="lazy" />}
-              </span>
+{article.author_avatar && (
+  <img
+    src={
+      article.author_avatar.startsWith('http')
+        ? article.author_avatar
+        : article.author_avatar.startsWith('/uploads/')
+          ? `${API_BASE}${article.author_avatar}`
+          : `${API_BASE}/uploads/${article.author_avatar}`
+    }
+    alt=""
+    loading="lazy"
+  />
+)}              </span>
               <span>
                 <span className="article-meta__name">{article.author_name}</span>
                 {article.author_role && <span className="article-meta__role">{article.author_role}</span>}
