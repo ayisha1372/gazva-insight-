@@ -6,6 +6,8 @@ import ConfirmDialog from '../components/ConfirmDialog.jsx';
 import { useConfirm } from '../hooks/useConfirm.js';
 import { useSite } from '../../context/SiteContext.jsx';
 
+const API_BASE = import.meta.env.VITE_API_URL;
+
 const PAGE_SIZE = 15;
 
 export default function ArticlesList() {
@@ -87,8 +89,22 @@ export default function ArticlesList() {
                 <tr key={a.id}>
                   <td>
                     <div className="admin-table__row-flex">
-                      <img className="admin-table__thumb" src={a.image || ''} alt="" onError={(e) => { e.currentTarget.style.visibility = 'hidden'; }} />
-                      <div style={{ minWidth: 0 }}>
+<img
+  className="admin-table__thumb"
+  src={
+    a.image
+      ? a.image.startsWith('http')
+        ? a.image
+        : a.image.startsWith('/uploads/')
+          ? `${API_BASE}${a.image}`
+          : `${API_BASE}/uploads/${a.image}`
+      : ''
+  }
+  alt=""
+  onError={(e) => {
+    e.currentTarget.style.visibility = 'hidden';
+  }}
+/>                      <div style={{ minWidth: 0 }}>
                         <div className="admin-table__title">{a.title}</div>
                         <div style={{ fontSize: '0.8rem', color: 'var(--ink-muted)' }}>{a.author_name}</div>
                       </div>
