@@ -9,6 +9,8 @@ import { useDocumentMeta } from '../hooks/useDocumentMeta.js';
 import { LoadingBlock } from '../components/StateBlock.jsx';
 import NotFound from './NotFound.jsx';
 
+const API_BASE = import.meta.env.VITE_API_URL;
+
 export default function ArticlePage() {
   const { category, slug } = useParams();
   const [params] = useSearchParams();
@@ -71,10 +73,14 @@ export default function ArticlePage() {
         </header>
 
         {article.cover_image && (
-          <div className="article-cover">
-            <img src={article.cover_image} alt={article.cover_alt || ''} loading="lazy" />
-          </div>
-        )}
+  <div className="article-cover">
+    <img
+      src={`${API_BASE}${article.cover_image}`}
+      alt={article.cover_alt || ''}
+      loading="lazy"
+    />
+  </div>
+)}
 
         <div className={`article-body${isPoem ? ' poem-body' : ''}`} dangerouslySetInnerHTML={{ __html: article.body }} />
 
