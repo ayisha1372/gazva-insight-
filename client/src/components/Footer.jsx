@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { useSite } from '../context/SiteContext.jsx';
 
+const API_BASE = import.meta.env.VITE_API_URL;
+
 const InstagramIcon = () => (
   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
     <rect x="2" y="2" width="20" height="20" rx="5" />
@@ -23,8 +25,11 @@ export default function Footer() {
       <div className="footer__top">
         <div className="footer__col footer__col--brand">
           <div className="footer__brand">
-            <img src={general.logo_url} alt={general.logo_alt} className="footer__logo-img" />
-            <div className="footer__brand-text">
+<img
+  src={`${API_BASE}${general.logo_url}`}
+  alt={general.logo_alt}
+  className="footer__logo-img"
+/>            <div className="footer__brand-text">
               <span className="footer__brand-name">{general.site_name}</span>
               <span className="footer__brand-subline">{footer.subline}</span>
             </div>
