@@ -5,6 +5,8 @@ import ConfirmDialog from '../components/ConfirmDialog.jsx';
 import { useConfirm } from '../hooks/useConfirm.js';
 import Modal from '../components/Modal.jsx';
 
+const API_BASE = import.meta.env.VITE_API_URL;
+
 const PAGE_SIZE = 24;
 
 export default function Media() {
@@ -112,7 +114,11 @@ export default function Media() {
         <div className="media-grid">
           {items.map((m) => (
             <button key={m.id} className="media-tile" onClick={() => { setSelected(m); setAltDraft(m.alt); }}>
-              <img src={m.url} alt={m.alt || m.original_name} loading="lazy" />
+              <img
+  src={`${API_BASE}${m.url}`}
+  alt={m.alt || m.original_name}
+  loading="lazy"
+/>
               <div className="media-tile__name">{m.original_name}</div>
             </button>
           ))}
@@ -138,7 +144,11 @@ export default function Media() {
             </>
           }
         >
-          <img src={selected.url} alt={selected.alt} style={{ width: '100%', borderRadius: 8, marginBottom: 16, background: 'var(--paper)' }} />
+         <img
+  src={`${API_BASE}${selected.url}`}
+  alt={selected.alt}
+  style={{ width: '100%', borderRadius: 8, marginBottom: 16, background: 'var(--paper)' }}
+/>
           <div className="afield">
             <label htmlFor="alt-text">Alt text</label>
             <input id="alt-text" className="ainput" value={altDraft} onChange={(e) => setAltDraft(e.target.value)} placeholder="Describe this image for accessibility" />
