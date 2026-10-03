@@ -3,6 +3,8 @@ import { api } from '../../api.js';
 import Modal from './Modal.jsx';
 import { useToast } from './Toast.jsx';
 
+const API_BASE = import.meta.env.VITE_API_URL;
+
 /** Modal for choosing (or uploading) an image; onSelect receives { url, alt }. */
 export default function MediaPicker({ onSelect, onClose }) {
   const [items, setItems] = useState([]);
@@ -71,8 +73,18 @@ export default function MediaPicker({ onSelect, onClose }) {
         <div className="media-grid">
           {items.map((m) => (
             <button key={m.id} type="button" className="media-tile" onClick={() => onSelect({ url: m.url, alt: m.alt })}>
-              <img src={m.url} alt={m.alt || m.original_name} loading="lazy" />
-              <div className="media-tile__name">{m.original_name}</div>
+<img
+  src={
+    m.url.startsWith('http')
+      ? m.url
+      : m.url.startsWith('/uploads/')
+        ? `${API_BASE}${m.url}`
+        : `${API_BASE}/uploads/${m.url}`
+  }
+  alt={m.alt || m.original_name}
+  loading="lazy"
+/>            
+  <div className="media-tile__name">{m.original_name}</div>
             </button>
           ))}
         </div>
