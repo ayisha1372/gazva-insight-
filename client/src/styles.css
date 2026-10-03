@@ -40,7 +40,7 @@
   --line-strong:    #C6D4CC;
 
   /* ── Category wayfinding ── */
-  --cat-tadabbur:       #1B7A6E;
+  --cat-al-ayn:       #1B7A6E;
   --cat-ahkaam:         #3FA34D;
   --cat-siyar:          #0E5C73;
   --cat-globalaffairs:  #4A4A4A;
@@ -121,7 +121,7 @@ p { margin: 0; }
   display: inline-block;
 }
 
-.eyebrow.cat-tadabbur::before        { background: var(--cat-tadabbur); }
+.eyebrow.cat-al-ayn::before        { background: var(--cat-al-ayn); }
 .eyebrow.cat-ahkaam::before          { background: var(--cat-ahkaam); }
 .eyebrow.cat-siyar::before           { background: var(--cat-siyar); }
 .eyebrow.cat-globalaffairs::before   { background: var(--cat-globalaffairs); }
@@ -130,7 +130,7 @@ p { margin: 0; }
 .eyebrow.cat-bookshelf::before       { background: var(--cat-bookshelf); }
 .eyebrow.cat-kurippathukal::before   { background: var(--cat-kurippathukal); }
 
-.eyebrow.cat-tadabbur        { color: var(--cat-tadabbur); }
+.eyebrow.cat-al-ayn        { color: var(--cat-al-ayn); }
 .eyebrow.cat-ahkaam          { color: var(--cat-ahkaam); }
 .eyebrow.cat-siyar           { color: var(--cat-siyar); }
 .eyebrow.cat-globalaffairs   { color: var(--cat-globalaffairs); }

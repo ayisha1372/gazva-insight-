@@ -23,7 +23,7 @@ export default function HomeTab() {
   const btn = (key, label) => (
     <div className="aform-row" style={{ marginBottom: 8 }}>
       <input className="ainput" placeholder={`${label} text`} value={form[key].label} onChange={(e) => setForm({ ...form, [key]: { ...form[key], label: e.target.value } })} />
-      <input className="ainput" placeholder="Link (e.g. /tadabbur or /contact)" value={form[key].href} onChange={(e) => setForm({ ...form, [key]: { ...form[key], href: e.target.value } })} />
+      <input className="ainput" placeholder="Link (e.g. /al-ayn or /contact)" value={form[key].href} onChange={(e) => setForm({ ...form, [key]: { ...form[key], href: e.target.value } })} />
     </div>
   );
 

@@ -38,7 +38,7 @@ export const SETTING_DEFAULTS = {
     hero_title: 'GAZVA',
     hero_title_accent: 'Insight',
     hero_text: 'Explore authentic Islamic knowledge through thoughtful articles, scholarly insights, and meaningful reflection.',
-    primary_button: { label: 'Start reading', href: '/tadabbur' },
+    primary_button: { label: 'Start reading', href: '/al-ayn' },
     secondary_button: { label: 'Get in Touch', href: '/contact' },
     section_title: 'Explore Every Category',
     section_description: 'Browse the latest insights, thoughtful reflections, and research from every corner of our platform.',
