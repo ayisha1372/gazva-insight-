@@ -21,7 +21,7 @@ async function request(path, { method = 'GET', body, isForm = false } = {}) {
   const res = await fetch(`${API_BASE}${path}`, {
     method,
     headers,
-    credentials: 'same-origin',
+    credentials: 'include',
     body: body ? (isForm ? body : JSON.stringify(body)) : undefined,
   });
 
