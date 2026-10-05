@@ -1,4 +1,4 @@
-import fs from 'node:fs';
+
 import crypto from 'node:crypto';
 import multer from 'multer';
 import { v2 as cloudinary } from 'cloudinary';

@@ -63,6 +63,8 @@ CREATE TABLE IF NOT EXISTS media (
   alt           TEXT        NOT NULL DEFAULT '',
   created_at    TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+ALTER TABLE media
+ADD COLUMN IF NOT EXISTS url TEXT;
 
 -- Cards shown in the homepage mosaic ("Explore Every Category"), in display order
 CREATE TABLE IF NOT EXISTS home_featured (

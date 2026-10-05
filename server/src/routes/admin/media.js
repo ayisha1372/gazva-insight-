@@ -1,8 +1,6 @@
-import fs from 'node:fs';
-import path from 'node:path';
+
 import { Router } from 'express';
 import { z } from 'zod';
-import { config } from '../../config.js';
 import { query } from '../../db/pool.js';
 import { HttpError, wrap } from '../../middleware/errors.js';
 import { finalizeUploads, uploadImages } from '../../middleware/upload.js';
@@ -12,13 +10,26 @@ const router = Router();
 
 // How many places a file is referenced (article images, article/page bodies, settings such as the logo)
 const USAGE_SQL = `(
-  (SELECT count(*) FROM articles a WHERE a.cover_image = '/uploads/' || m.filename OR a.card_image = '/uploads/' || m.filename
-      OR a.author_avatar = '/uploads/' || m.filename OR position('/uploads/' || m.filename in a.body) > 0)
-  + (SELECT count(*) FROM pages p WHERE position('/uploads/' || m.filename in p.body) > 0)
-  + (SELECT count(*) FROM settings s WHERE position('/uploads/' || m.filename in s.value::text) > 0)
+  (SELECT count(*) FROM articles a WHERE
+    a.cover_image = '/uploads/' || m.filename
+    OR a.card_image = '/uploads/' || m.filename
+    OR a.author_avatar = '/uploads/' || m.filename
+    OR (m.url IS NOT NULL AND a.cover_image = m.url)
+    OR (m.url IS NOT NULL AND a.card_image = m.url)
+    OR (m.url IS NOT NULL AND a.author_avatar = m.url)
+    OR position('/uploads/' || m.filename in a.body) > 0
+    OR (m.url IS NOT NULL AND position(m.url in a.body) > 0)
+  )
+  + (SELECT count(*) FROM pages p WHERE
+    position('/uploads/' || m.filename in p.body) > 0
+    OR (m.url IS NOT NULL AND position(m.url in p.body) > 0)
+  )
+  + (SELECT count(*) FROM settings s WHERE
+    position('/uploads/' || m.filename in s.value::text) > 0
+    OR (m.url IS NOT NULL AND position(m.url in s.value::text) > 0)
+  )
 )::int`;
-
-const withUrl = (r) => ({ ...r, url: `/uploads/${r.filename}` });
+const withUrl = (r) => ({ ...r });
 
 router.get('/', wrap(async (req, res) => {
   const limit = Math.min(Math.max(parseInt(req.query.limit, 10) || 24, 1), 100);
@@ -34,17 +45,30 @@ router.get('/', wrap(async (req, res) => {
 }));
 
 router.post('/', uploadImages, wrap(async (req, res) => {
-  const { ok, rejected } = finalizeUploads(req.files);
+  const { ok, rejected } = await finalizeUploads(req.files);
   if (!ok.length) throw new HttpError(400, rejected.length ? 'Those files are not valid PNG, JPG, GIF or WebP images.' : 'Choose at least one image.');
-  const items = [];
+    const items = [];
+
   for (const f of ok) {
     const { rows: [row] } = await query(
-      'INSERT INTO media (filename, original_name, mime, size) VALUES ($1,$2,$3,$4) RETURNING *', [f.filename, f.original_name, f.mime, f.size]);
+      `INSERT INTO media
+        (filename, original_name, mime, size, url)
+       VALUES ($1, $2, $3, $4, $5)
+       RETURNING *`,
+      [
+        f.filename,
+        f.original_name,
+        f.mime,
+        f.size,
+        f.url,
+      ]
+    );
+
     items.push(withUrl({ ...row, used_in: 0 }));
   }
+
   res.status(201).json({ items, rejected });
 }));
-
 router.patch('/:id', wrap(async (req, res) => {
   const { alt } = z.object({ alt: z.string().trim().max(300) }).parse(req.body);
   const { rows: [row] } = await query('UPDATE media SET alt = $2 WHERE id = $1 RETURNING *', [req.params.id, cleanText(alt)]);
@@ -59,8 +83,6 @@ router.delete('/:id', wrap(async (req, res) => {
     throw new HttpError(409, `This image is used in ${m.used_in} place${m.used_in === 1 ? '' : 's'} on the site. Deleting it would leave broken images.`);
   }
   await query('DELETE FROM media WHERE id = $1', [m.id]);
-  const file = path.join(config.uploadDir, path.basename(m.filename)); // basename: never escape the uploads folder
-  fs.unlink(file, () => {});
   res.json({ ok: true });
 }));
 
