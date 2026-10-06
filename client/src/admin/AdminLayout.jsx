@@ -40,7 +40,11 @@ export default function AdminLayout({ unreadCount = 0 }) {
         <aside className={`admin-sidebar${sidebarOpen ? ' is-open' : ''}`}>
           <div className="admin-sidebar__brand">
             <img
-  src={`${API_BASE}${site.general.logo_url}`}
+  src={
+    site.general.logo_url?.startsWith('http')
+      ? site.general.logo_url
+      : `${API_BASE}${site.general.logo_url}`
+  }
   alt=""
   width="34"
   height="34"

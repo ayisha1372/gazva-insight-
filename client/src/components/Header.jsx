@@ -20,12 +20,21 @@ export default function Header() {
         <Link to="/" className="navbar__brand" aria-label={`${site.general.site_name} home`} onClick={close}>
           <span className="navbar__logo">
 <img
-  src={`${API_BASE}${site.general.logo_url}`}
+  src={
+    site.general.logo_url
+      ? site.general.logo_url.startsWith('http')
+        ? site.general.logo_url
+        : site.general.logo_url.startsWith('/uploads/')
+          ? `${API_BASE}${site.general.logo_url}`
+          : `${API_BASE}/uploads/${site.general.logo_url}`
+      : ''
+  }
   alt={site.general.logo_alt}
   width="40"
   height="40"
   style={{ borderRadius: 10, objectFit: 'cover' }}
-/>          </span>
+/>
+       </span>
           <span className="navbar__name">
             GAZVA <span>Insight</span>
           </span>

@@ -15,7 +15,15 @@ export default function Card({ article, size }) {
     <Link to={`/${article.category.slug}/${article.slug}`} className={`card${sizeClass}`}>
       <div className="card__media">
         <img
-  src={article.image ? `${API_BASE}${article.image}` : FALLBACK_IMG}
+  src={
+    article.image
+      ? article.image.startsWith('http')
+        ? article.image
+        : article.image.startsWith('/uploads/')
+          ? `${API_BASE}${article.image}`
+          : `${API_BASE}/uploads/${article.image}`
+      : FALLBACK_IMG
+  }
   alt=""
   loading="lazy"
 />

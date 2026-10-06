@@ -26,10 +26,19 @@ export default function Footer() {
         <div className="footer__col footer__col--brand">
           <div className="footer__brand">
 <img
-  src={`${API_BASE}${general.logo_url}`}
+  src={
+    general.logo_url
+      ? general.logo_url.startsWith('http')
+        ? general.logo_url
+        : general.logo_url.startsWith('/uploads/')
+          ? `${API_BASE}${general.logo_url}`
+          : `${API_BASE}/uploads/${general.logo_url}`
+      : ''
+  }
   alt={general.logo_alt}
   className="footer__logo-img"
-/>            <div className="footer__brand-text">
+/>
+         <div className="footer__brand-text">
               <span className="footer__brand-name">{general.site_name}</span>
               <span className="footer__brand-subline">{footer.subline}</span>
             </div>

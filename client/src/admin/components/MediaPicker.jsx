@@ -75,16 +75,17 @@ export default function MediaPicker({ onSelect, onClose }) {
             <button key={m.id} type="button" className="media-tile" onClick={() => onSelect({ url: m.url, alt: m.alt })}>
 <img
   src={
-    m.url.startsWith('http')
+    m.url?.startsWith('http')
       ? m.url
-      : m.url.startsWith('/uploads/')
+      : m.url?.startsWith('/uploads/')
         ? `${API_BASE}${m.url}`
-        : `${API_BASE}/uploads/${m.url}`
+        : m.url
+          ? `${API_BASE}/uploads/${m.url}`
+          : ''
   }
   alt={m.alt || m.original_name}
   loading="lazy"
-/>            
-  <div className="media-tile__name">{m.original_name}</div>
+/><div className="media-tile__name">{m.original_name}</div>
             </button>
           ))}
         </div>

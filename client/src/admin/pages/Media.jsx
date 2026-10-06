@@ -115,7 +115,15 @@ export default function Media() {
           {items.map((m) => (
             <button key={m.id} className="media-tile" onClick={() => { setSelected(m); setAltDraft(m.alt); }}>
               <img
-  src={`${API_BASE}${m.url}`}
+  src={
+    m.url?.startsWith('http')
+      ? m.url
+      : m.url?.startsWith('/uploads/')
+        ? `${API_BASE}${m.url}`
+        : m.url
+          ? `${API_BASE}/uploads/${m.url}`
+          : ''
+  }
   alt={m.alt || m.original_name}
   loading="lazy"
 />
@@ -145,7 +153,15 @@ export default function Media() {
           }
         >
          <img
-  src={`${API_BASE}${selected.url}`}
+  src={
+    selected.url?.startsWith('http')
+      ? selected.url
+      : selected.url?.startsWith('/uploads/')
+        ? `${API_BASE}${selected.url}`
+        : selected.url
+          ? `${API_BASE}/uploads/${selected.url}`
+          : ''
+  }
   alt={selected.alt}
   style={{ width: '100%', borderRadius: 8, marginBottom: 16, background: 'var(--paper)' }}
 />
