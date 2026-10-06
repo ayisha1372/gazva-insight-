@@ -86,10 +86,17 @@ export default function ArticlePage() {
         {article.cover_image && (
   <div className="article-cover">
     <img
-      src={`${API_BASE}${article.cover_image}`}
-      alt={article.cover_alt || ''}
-      loading="lazy"
-    />
+  src={
+    article.cover_image
+      ? article.cover_image.startsWith('http')
+        ? article.cover_image
+        : article.cover_image.startsWith('/uploads/')
+          ? `${API_BASE}${article.cover_image}`
+          : `${API_BASE}/uploads/${article.cover_image}`
+      : ''
+  }
+  alt={article.cover_alt}
+/>
   </div>
 )}
 
